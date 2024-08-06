@@ -129,4 +129,4 @@ client.once('ready', async () => {
     });
 });
 
-client.login(token);
+client.login(process.env.token);
